@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+hr{
+    width: 500px;
+    margin: 20px auto;
+
+}
+
+#errors {
+    color: coral;
+    font-size: 24px;
+    margin: 20px 0;
+
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;    /*Include padding and border in width and heigth*/
+
+}
+
+.tile{
+    width: 48px;
+    height: 48px;
+    border: 5px solid lightgray;
+    box-sizing: border-box;    /* Include padding and border in width and height */
+
+    /*text*/
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+    box-sizing: border-box;    /* Include padding and border in width and height */
+
+
+    /*text*/
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;    /* Include padding and border in width and height */
+
+
+}
+
+.number-selected{
+    background-color: gray;
+}
+
+.tile-start{
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 5px solid black;
+}
+
+.vertical-line {
+    border-right: 5px solid black ;
+}
