@@ -1,0 +1,1 @@
+This is a classic Sudoku game built using HTML , CSS and JavaScript. Sudoku is a logic-based puzzle where the objective is to fill a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 subgrids contain all of the digits from 1 to 9 without repetition.
